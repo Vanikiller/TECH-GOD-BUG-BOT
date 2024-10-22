@@ -1,4 +1,4 @@
-//base by Tech-God
+h//base by Tech-God
 //re-upload? recode? copy code? give credit ya :)
 //YouTube: @techgod143
 //Instagram: techgod143
@@ -32,7 +32,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "911234567890"
+let phoneNumber = "2347070492951"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
